@@ -1,0 +1,175 @@
+head{
+    background-color: gray;
+}
+
+#page{
+    margin-top: -8px;
+    text-align: center;
+    background-color: white;
+}
+
+#head-image{
+    height: 20vw;
+    width: 70%;
+
+    position: relative;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+
+#head-image2{
+    height: 4.5vw;
+    position: absolute;
+    left: -5vw;
+    top: 2.73vw;
+}
+
+#header{
+    color: white;
+    position: absolute;
+    font-size: 2.3vw;
+    top: 11.2vw;
+    left: 23.5%;
+}
+
+#header2{
+    font-size: 50%;
+    margin-top: -13%;
+}
+
+#header3{
+    position: absolute;
+    font-size: 1vw;
+    top: 16vw;
+    right: 19%;
+    word-spacing: 2.2vw;
+}
+
+#link{
+    color: white;
+    text-decoration: none;
+}
+
+#link:hover{
+    padding-bottom: 10px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+/*Header Stuff^^^*/
+
+
+h1{
+    font-weight: normal;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    word-spacing: normal;
+}
+
+p{
+    word-spacing: normal;
+}
+
+button{
+    background-color: white;
+    color: #009959;
+    border-color: #009959;
+    border-bottom-color: darkgreen;
+    border-style: solid;
+    width: 4.2vw;
+    height: 2vw;
+    margin: 1vw;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+button:hover{
+    background-color: #009959;
+    color: white;
+}
+
+#bg-right {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 84.7%;
+    right: 0;
+    z-index: -1;
+}
+
+#bg-left {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 84.7%;
+    left: 0;
+    z-index: -1;
+}
+
+#img{
+    width: 12vw;
+    margin: 1.3vw;
+}
+
+#name{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    left: 21.85%;
+}
+
+#name2{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    left: 36.7%;
+}
+
+#name3{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    right: 41.8%;
+}
+
+#name4{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    right: 27.4%;
+}
+
+#text{
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+
+#text2{
+    font-size: 1vw;
+    position: absolute;
+    left: 21.85%;
+}
+
+#text3{
+    font-size: 1vw;
+    position: absolute;
+    left: 36.7%;
+}
+
+#text4{
+    font-size: 1vw;
+    position: absolute;
+    right: 43.5%;
+}
+
+#text5{
+    font-size: 1vw;
+    position: absolute;
+    right: 28.6%;
+}
+
+#texts{
+    margin-top: 3vw;
+}
