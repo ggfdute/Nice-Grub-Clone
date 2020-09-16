@@ -13,9 +13,7 @@ head{
     width: 70%;
 
     position: relative;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
+    object-fit: cover;
 }
 
 #head-image2{
@@ -56,9 +54,11 @@ head{
     border-width: 0 0 1px;
     border-style: solid;
 }
-/*Header Stuff^^^*/
+/*Header Done*/
 
 
+
+/*Body Start*/
 h1{
     font-weight: normal;
     font-size: 2vw;
@@ -70,26 +70,45 @@ p{
     word-spacing: normal;
 }
 
-button{
+#button{
     background-color: white;
     color: #009959;
     border-color: #009959;
     border-bottom-color: darkgreen;
     border-style: solid;
-    width: 4.2vw;
+    width: 6vw;
     height: 2vw;
     margin: 1vw;
     font-size: 1vw;
     margin-bottom: 1vw;
 }
 
-button:hover{
+#button:hover{
     background-color: #009959;
     color: white;
+    cursor: pointer;
+}
+
+#button2{
+    background: transparent;
+    color: rgb(32, 32, 32);
+    position: absolute;
+    right: -6.7%;
+    margin: 22.6vw;
+    width: 6vw;
+    height: 2vw;
+    border-color: lightgray;
+    font-size: 0.65vw;
+}
+
+#button2:hover{
+    cursor: pointer;
+    box-shadow: 0 -10px 40px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.8);
 }
 
 #bg-right {
-    background-color: gray;
+    background-color: lightgray;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -99,7 +118,7 @@ button:hover{
 }
 
 #bg-left {
-    background-color: gray;
+    background-color: lightgray;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -111,6 +130,19 @@ button:hover{
 #img{
     width: 12vw;
     margin: 1.3vw;
+}
+
+#img2{
+    width: 12vw;
+    margin: 1.3vw;
+    margin-top: 7vw;
+}
+
+#img3{
+    position: absolute;
+    width: 27vw;
+    margin: 10vw;
+    left: 11.5%;
 }
 
 #name{
@@ -141,35 +173,149 @@ button:hover{
     right: 27.4%;
 }
 
-#text{
+#name5{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    left: 21.5%;
+}
+
+#name6{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    left: 36.5%;
+}
+
+#name7{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    right: 42%;
+}
+
+#name8{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    right: 24.3%;
+}
+
+#name9{
+    position: absolute;
+    font-size: 1vw;
+    color: #0f52ba;
+    right: 29.5%;
+    margin: 10vw;
+}
+
+#sample{
     font-size: 1vw;
     margin-bottom: 2vw;
 }
 
-#text2{
-    font-size: 1vw;
+#text{
     position: absolute;
     left: 21.85%;
 }
 
-#text3{
-    font-size: 1vw;
+#text2{
     position: absolute;
     left: 36.7%;
 }
 
-#text4{
-    font-size: 1vw;
+#text3{
     position: absolute;
     right: 43.5%;
 }
 
-#text5{
-    font-size: 1vw;
+#text4{
     position: absolute;
     right: 28.6%;
 }
 
+#text5{
+    position: absolute;
+    left: 21.5%;
+}
+
+#text6{
+    position: absolute;
+    left: 36.5%;
+}
+
+#text7{
+    position: absolute;
+    right: 43.5%;
+}
+
+#text8{
+    position: absolute;
+    right: 28.45%;
+}
+
+#text9{
+    position: absolute;
+    text-align: left;
+    margin: 12.5vw;
+    left: 38.9%;
+
+}
+
 #texts{
-    margin-top: 3vw;
+    margin-top: 2.5vw;
+    font-size: 1vw;
+}
+
+#price{
+    position: absolute;
+    left: 21.85%;
+    margin-top: 2.5vw;
+}
+
+#price2{
+    position: absolute;
+    left: 36.7%;
+    margin-top: 2.5vw;
+}
+
+#price3{
+    position: absolute;
+    right: 45.7%;
+    margin-top: 2.5vw;
+}
+
+#price4{
+    position: absolute;
+    right: 30.8%;
+    margin-top: 2.5vw;
+}
+
+#price5{
+    position: absolute;
+    left: 21.5%;
+    margin-top: 2.5vw;
+}
+
+#price6{
+    position: absolute;
+    left: 36.5%;
+    margin-top: 2.5vw;
+}
+
+#price7{
+    position: absolute;
+    right: 47%;
+    margin-top: 2.5vw;
+}
+
+#price8{
+    position: absolute;
+    right: 31.9%;
+    margin-top: 2.5vw;
+}
+
+#prices{
+    font-size: 1vw;
+    color: #009959;
 }
